@@ -5,6 +5,7 @@ on: [push]
 jobs:
   build:
     #runs-on: ubuntu-latest
+    #this one is for self-hosted yasir
     runs-on: self-hosted
     strategy:
       matrix:
